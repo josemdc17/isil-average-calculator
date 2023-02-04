@@ -7,6 +7,7 @@
   -webkit-text-size-adjust: 100%;
   display: grid;
   place-content: center;
+  padding: 0;
 }
 
 body {
@@ -79,4 +80,10 @@ button{
 button:hover{
   background-color: rgb(96, 207, 238);
   color: black;
+}
+
+@media (max-width: 500px){
+  #root{
+    padding: 0;
+  }
 }
