@@ -85,10 +85,7 @@ const App = () => {
   };
 
   return (
-    <div>
-      <div className="header">
-        <p>Saca tu promedio ISIL</p>
-      </div>
+  
 
       <div className="App">
         <div className="titleDiv">
@@ -219,7 +216,7 @@ const App = () => {
           </button>
         </div>
       </div>
-    </div>
+
   );
 };
 
